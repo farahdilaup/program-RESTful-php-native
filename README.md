@@ -43,7 +43,6 @@ This is a simple CRUD API built with PHP native. It allows you to manage `progra
 
 ### 3. Create a Program:
 - `POST /api/programs`
-  <br>
     ```json
     {
         "name": "Program Name",
@@ -54,7 +53,6 @@ This is a simple CRUD API built with PHP native. It allows you to manage `progra
 
 ### 4. Update a Program:
 - `PUT /api/programs/?id={id}`
--   <br>
     ```json
     {
         "name": "Updated Name",
