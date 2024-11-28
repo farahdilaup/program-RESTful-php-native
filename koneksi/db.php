@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$dbname = 'skb';
-$username = 'root';
-$password = '';
+$host = 'localhost'; // or your host
+$dbname = 'your_database_name';
+$username = 'your_username';
+$password = 'your_password';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
